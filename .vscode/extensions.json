@@ -7,6 +7,7 @@
         "ms-toolsai.jupyter",
         "slevesque.vscode-multiclip",
         "ms-python.python",
-        "mhutchie.git-graph"
+        "mhutchie.git-graph",
+        "davidanson.vscode-markdownlint"
     ]
 }
