@@ -1,0 +1,24 @@
+# Micromamba environment file
+# https://marketplace.visualstudio.com/items?itemName=corker.vscode-micromamba
+
+name: default
+
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.8
+  - gymnasium
+  - gymnasium-box2d
+  - gymnasium-atari
+  - gymnasium-classic_control
+  - numpy
+  - matplotlib
+  - jupyter
+  - pytest
