@@ -7,13 +7,17 @@ channels:
   - pytorch
   - nvidia
   - conda-forge
+  # We want to have a reproducible setup, so we don't want default channels,
+  # which may be different for different users. All required channels should
+  # be listed explicitly here.
+  - nodefaults
 
 dependencies:
   - python=3.11
-  - pytorch
-  - torchvision
-  - torchaudio
-  - pytorch-cuda=11.8
+  - pytorch::pytorch
+  - pytorch::torchvision
+  - pytorch::torchaudio
+  - pytorch::pytorch-cuda=11.8
   - gymnasium
   - gymnasium-box2d
   - gymnasium-atari
